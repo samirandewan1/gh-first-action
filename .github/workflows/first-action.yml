@@ -13,7 +13,7 @@ jobs:
         # Run the command
         run: echo "Hello World"
       - name: print Bye
-        # Run the command
+        # Run the command. to run multiple shell commands by adding the pipe symbol (|)
         run: |
           echo "Thank you"
           echo "Done Bye"
