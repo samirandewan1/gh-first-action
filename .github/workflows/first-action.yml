@@ -14,5 +14,8 @@ jobs:
         run: echo "Hello World"
       - name: print Bye
         # Run the command
-        run: echo "Done Bye"
+        run: |
+          echo "Thank you"
+          echo "Done Bye"
+        
 
